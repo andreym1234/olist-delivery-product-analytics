@@ -1,0 +1,9 @@
+table,raw_rows,exact_duplicates_removed,rows_after_exact_dedup
+orders,99441,0,99441
+customers,99441,0,99441
+items,112650,0,112650
+payments,103886,0,103886
+reviews,99224,0,99224
+products,32951,0,32951
+sellers,3095,0,3095
+category_translation,71,0,71

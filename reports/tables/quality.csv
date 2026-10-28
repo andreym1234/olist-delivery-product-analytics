@@ -1,0 +1,14 @@
+metric,count
+all_orders,99441
+status_delivered,96478
+delivered_invalid_or_missing_fields,92
+valid_delivered_outside_period,263
+main_delivered_orders,96123
+main_without_first_review,641
+main_review_before_delivery,4761
+main_review_after_30_days,644
+main_review_timestamp_missing,0
+main_eligible_review,90077
+orders_with_multiple_review_records,547
+orders_with_multiple_sellers,1278
+payment_minus_items_freight_abs_gt_1,249

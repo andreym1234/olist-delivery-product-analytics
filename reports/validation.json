@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-28",
+  "business_rule_tests_passed": 12,
+  "executed_notebook_code_cells": 11,
+  "embedded_figures": 7,
+  "sql_python_months_equal": 20,
+  "source_hashes_verified": 8,
+  "notebook_errors": 0,
+  "markdown_local_links": "verified",
+  "archive_excludes_raw_data_and_temporary_files": true
+}

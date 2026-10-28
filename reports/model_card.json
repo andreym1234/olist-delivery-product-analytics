@@ -1,0 +1,38 @@
+{
+  "task": "Risk of late delivery at payment approval, conditional on eventual delivery",
+  "chosen_C_by_july_AP": 0.1,
+  "features": [
+    "goods_value",
+    "freight_value",
+    "item_count",
+    "seller_count",
+    "promised_days_at_approval",
+    "freight_share",
+    "customer_state",
+    "seller_state",
+    "category",
+    "purchase_weekday"
+  ],
+  "split_counts": {
+    "train": 79328,
+    "july_validation_mature_labels": 4055,
+    "refit_as_of_august_1": 84957,
+    "august_test": 6282,
+    "train_labels_unavailable_at_cutoff": 1580,
+    "july_labels_unavailable_at_cutoff": 1762
+  },
+  "forbidden_features": [
+    "order_delivered_customer_date",
+    "review_score",
+    "delivery_days",
+    "late_days",
+    "is_late",
+    "review_answer_timestamp"
+  ],
+  "limitations": [
+    "Retrospective sample includes only orders eventually delivered; cancelled/undelivered orders require a different outcome definition.",
+    "Training and July selection exclude labels unknown at the cutoff; July validation is therefore a maturity-selected subset.",
+    "August is a single out-of-time test; no causal or online performance claim.",
+    "Probabilities are not calibrated on a separate sample. Precision/recall at 10% describe a retrospective capacity scenario, not an online threshold."
+  ]
+}
